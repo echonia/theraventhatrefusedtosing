@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+html { 
+  background: url(hajo-background1-dark.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+  <script>
+    function onYouTubeIframeAPIReady() {
+console.log('onYouTubeIframeAPIReady')
+      // player = new YT.Player('player', {});
+    }
+    // ytplayer = document.getElementById("video");
+    window.setInterval(function(){
+      // console.log(player);
+      // console.log(player.getCurrentTime());
+    }, 1000);
+  </script>
+  <iframe id="player" width="640" height="360" src="http://www.youtube.com/embed/n8sLcvWG1M4?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>
